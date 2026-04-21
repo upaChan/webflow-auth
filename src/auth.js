@@ -3,3 +3,7 @@ function login(username, password) {
     // TODO: Implement
 }
 module.exports = { login };
+
+function checkCredentials(username, password) {  // опечатка в названии
+    return username && password;
+}
