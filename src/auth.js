@@ -7,3 +7,4 @@ module.exports = { login };
 function checkCredentials(username, password) {  // опечатка в названии
     return username && password;
 }
+console.log('Debug: auth module loaded')
